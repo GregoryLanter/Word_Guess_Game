@@ -1,0 +1,60 @@
+*{
+    border-radius: 5px;
+    border: 1px solid blue
+}
+.outline{
+    width: 1050px;
+    background-image: url(../images/rink.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.column2{
+    text-align: center;
+    width:100%;
+    margin-bottom: 15px;
+}
+.image{
+    width:300px;
+    height:300px;
+}
+.title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#col{
+    background-color: white;
+    border-color:  blue;
+    border-style: dotted;
+    font-size: 30px;
+}
+#song{
+    position: relative;
+    top: 66px;
+    text-align: center;
+}
+.start{
+
+}
+.win{
+
+}
+.word{
+
+}
+.spaces{
+    
+}
+.text-guess{
+
+}
+.guesses{
+
+}
+.text-letter{
+
+}
+.letter{
+
+}
