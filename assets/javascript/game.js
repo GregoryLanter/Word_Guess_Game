@@ -54,7 +54,7 @@ $(document).ready(function() {
                 goal.wins++;
                 updateHtml("wins", "Wins: " + goal.wins);
                 goal.guessCount = 0;
-                document.getElementById("pic").src = "assets\\images\\" + goal.displayStr + ".png";
+                document.getElementById("pic").src = "assets\\images\\" + goal.displayStr.toLowerCase() + ".png";
                 /* var winLink = document.getElementById("wins");
                 winLink.innerText = "Wins "+ goal.wins; */
             }
