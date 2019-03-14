@@ -3,9 +3,10 @@
     border: 1px solid blue
 }*/
 .outline{
-    width: 1050px;
+    width: 1535px;
+    height: 860px;
     background-image: url(../images/rink.png);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 .column2{
@@ -31,8 +32,16 @@
 }
 #song{
     position: relative;
-    top: 66px;
+    top: 20%;
     text-align: center;
+}
+#jumbo{
+    height:200px;
+    padding: 0px;
+}
+#game{
+    position: relative;
+    top:150px;
 }
 .start{
 
