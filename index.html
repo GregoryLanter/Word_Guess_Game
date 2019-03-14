@@ -5,6 +5,7 @@
         <title>Word Guess Game</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript"src="assets\javascript\game.js"></script>
     </head>
     <body>
@@ -35,7 +36,7 @@
                         </div>          
                     </div>
                     <div class = "row">
-                        <div class = "column2">
+                        <div id= "wins" class = "column2">
                             Wins:
                         </div>      
                     </div>
@@ -45,27 +46,27 @@
                         </div>
                     </div>
                     <div class = "row">
-                        <div class = "column2">
-                            _ _ _ _ _ _ _
+                        <div id = "goal" class = "column2">
+                            _ 
                         </div>
                     </div>
                     <div class = "row">
-                        <div class = "column2">
+                        <div id = "remain" class = "column2">
                             Number of Guesses remaining:
                         </div>
                     </div>
                     <div class = "row">
-                        <div class = "column2">
+                        <div id = "guess" class = "column2">
                             15
                         </div>
                     </div>
                     <div class = "row">
                         <div class = "column2">
-                            Letters already guessed:s
+                            Letters already guessed:
                         </div>
                     </div>
                     <div class = "row">
-                        <div id="guess" class = "column2">
+                        <div id="used" class = "column2">
                             *
                         </div>
                     </div> 
