@@ -38,6 +38,7 @@ $(document).ready(function() {
             goal.usedLetter = "";
             updateHtml("used", "*");
             goal.display();
+            updateHtml("songTitle", "");
             document.getElementById("pic").src = "assets\\images\\nhl.png";
         },
         isWin: function(){
