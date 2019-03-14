@@ -3,11 +3,11 @@
     border: 1px solid blue
 }*/
 .outline{
-    width: 1535px;
-    height: 860px;
+    width: 1350px;
+    height: 600px;
     background-image: url(../images/rink.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 1350px 600px;
 }
 .column2{
     text-align: center;
@@ -15,12 +15,12 @@
     margin-bottom: 15px;
 }
 .image{
-    width:300px;
-    height:300px;
+    width:250px;
+    height:275px;
 }
 .title{
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -32,16 +32,24 @@
 }
 #song{
     position: relative;
-    top: 20%;
+    top: 0%;
     text-align: center;
 }
 #jumbo{
-    height:200px;
+    height: 135px;
     padding: 0px;
+    margin: 10px;
 }
 #game{
     position: relative;
-    top:150px;
+    top:59px;
+}
+#blankDiv{
+    background: transparent;
+}
+#grid{
+    position: relative;
+    top: -20px;
 }
 .start{
 
