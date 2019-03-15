@@ -2,6 +2,7 @@
     border-radius: 5px;
     border: 1px solid blue
 }*/
+/*set the background of the page*/
 .outline{
     width: 1350px;
     height: 600px;
@@ -9,69 +10,63 @@
     background-repeat: no-repeat;
     background-size: 1350px 600px;
 }
+
+/*style for all the items in the column */
 .column2{
     text-align: center;
     width:100%;
     margin-bottom: 15px;
 }
+
+/*Set the logo image attributes */
 .image{
     width:250px;
     height:275px;
 }
+
+/*style the big header in our jumbotron */
 .title{
     text-align: center;
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 15px;
 }
+
+/* style the outside of our box */
 #col{
     background-color: white;
     border-color:  blue;
     border-style: dotted;
     font-size: 30px;
 }
+
+/* position the song title in the jumbtron */
 #song{
     position: relative;
     top: 0%;
     text-align: center;
 }
+
+/* move hte jumbotron on the screen */
 #jumbo{
     height: 135px;
     padding: 0px;
     margin: 10px;
 }
+
+/* position the ain body of the game */
 #game{
     position: relative;
     top:59px;
 }
+
+/* blank out the blank placeholder divs */
 #blankDiv{
     background: transparent;
 }
+
+/* move the grid on the screen*/
 #grid{
     position: relative;
     top: -20px;
-}
-.start{
-
-}
-.win{
-
-}
-.word{
-
-}
-.spaces{
-    
-}
-.text-guess{
-
-}
-.guesses{
-
-}
-.text-letter{
-
-}
-.letter{
-
 }
