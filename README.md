@@ -9,3 +9,5 @@ The game should have a theme I have choosen hockey as my theme.
 I will be using objects in my js file. I will have an object for the letters including properties for guessed and if it is in the word. I will also have an object for the goal Word.
 
 Team names with spaces such as Blue Jackets will have the space removed.
+
+https://gregorylanter.github.io/Word_Guess_Game/
